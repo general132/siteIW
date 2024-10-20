@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>home</title>
+    <link rel="stylesheet" href="home.css" />
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a class="logo">tekkno</a>
+        <p>A Tekkno é um site que trabalha com busca e informação de locais usando APIs </br>
+          que facilitam e ajudam na busca de informações de cidades, Por exemplo em querer</br>
+          saber o clima ou o codigo postal daquela cidade ou região, a API responsavel por </br> 
+          fazer esse tipo de pesquisa especifica é a OpenWeather uma API gratuita que trabalha </br>
+          se baseando em coordenadas como latitude e longitude assim fornecendo uma resposta</br>
+          precisa e correta.</br></br>
+          Dito isso, foi criada duas ferramentas que fazem respectivas buscas separadamente, uma</br>
+          busca a cidade de escolha por nome e fornece uma previsão do tempo, outra faz  </br>
+          uma busca atraves de um cep que fornece nome da cidade e a previsão em tempo real. </br>
+          
+          </br>
+          </br>
+          Faça sua busca por clima, escolha sua pilula!
+          </br>
+        </p>
+        <ul class="nav-list">
+          <li><a href="#">Início</a></li>
+          <li><a href="#">APIs</a></li>
+          <li><a href="#">Conta</a></li>
+          <li><a href="#"></a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="button-container">
+        <button class="action-button" id="busca-cidade">Buscar Cidade</button>
+        <button class="action-button1" id="busca-cep">Buscar por CEP</button>
+        <script>
+          document.getElementById("busca-cidade").addEventListener("click", function() {
+              window.location.href = "file:///C:/Users/igors/Downloads/siteIW/Clima/index.html";
+          });
+  
+          document.getElementById("busca-cep").addEventListener("click", function() {
+              window.location.href = "file:///C:/Users/igors/Downloads/siteIW/climacep/clima.html";
+          });
+      </script>
+    </div>
+    </main>
+  </body>
+</html>
